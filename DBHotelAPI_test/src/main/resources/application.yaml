@@ -1,0 +1,11 @@
+#Please change the port from 3306 to your custom MySQL port number
+#Please change your username, password here
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotel?useSSL=false
+    username: root
+    password: 1234567800.
+
+#JPA Settings
+  jpa.hibernate.ddl_auto: create
+
